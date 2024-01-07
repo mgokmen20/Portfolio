@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    width: 100%;
+    gap: 10px;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: deepskyblue;
+    margin-bottom: 30px;
+}
+
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #fff;
+    color: black;
+    font-size: larger;
+}
+
+.header {
+    background-color: deepskyblue;
+    margin: 20px 0;
+    padding: 10px;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+    align-items: self-start;
+
+    height: auto;
+    width: auto;
+    gap: 20px;
+}
+
+.content img {
+    height: 300px;
+    width: 40%;
+    order: -1;
+}
+
+.content p {
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.footer {
+    display: flex;
+    height: 100px;
+    width: auto;
+    background-color: deepskyblue;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-entry {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin: 20px;
+
+}
+
+
+.content-entry img {
+    width: 40%;
+    margin-right: 16px;
+    float: left;
+
+
+}
+
+.paragraps p {
+    line-height: 1.6rem;
+    text-indent: 16px;
+    text-align: justify;
+}
+
+
+.entry-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: deepskyblue;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social img {
+    width: 100%;
+    height: 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+.social img:hover {
+    transform: scale(1.3);
+}
+
+.banner {
+    width: 100%;
+    height: 200px;
+}
+
+.banner img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    font-size: 1.5rem;
+    gap: 1rem;
+
+}
+
+
+/* form bilgisi */
+form {
+    display: grid;
+    gap: 10px;
+    margin: 30px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: deepskyblue;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+
+
